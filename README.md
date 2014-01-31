@@ -1,9 +1,12 @@
-To run the frontend
+To1run the frontend
 
-cd app
-meteor
+  cd app
+
+  meteor
+
 
 To run the backend
 
-cd server
-python main.py
+  cd server
+
+  python main.py
