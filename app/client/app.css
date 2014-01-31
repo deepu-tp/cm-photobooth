@@ -1,0 +1,22 @@
+/* CSS declarations go here */
+body { 
+	font-family: 'Ubuntu';
+	background: no-repeat center center fixed; 
+	background-image: url(loading.gif);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 98%;
+	height: 95%;
+	margin: 0px;
+}
+#noimage {
+	background: #f00;
+	color: #fff;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	padding: 10px;
+	display: none;
+}

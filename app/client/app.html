@@ -1,0 +1,23 @@
+<head>
+  <title>Photo Booth</title>
+</head>
+
+<body>
+	{{> image}}
+</body>
+
+<template name="image">
+
+	<button id="take_background">Background Refresh</button>
+	<button id="take_both">Background and Foreground</button>
+	<button id="bs">Background Separation</button>
+	<button id="reset">New Image</button>
+	<form>
+		<input type="text" x-webkit-speech name="search" id="tts" />
+	</form>
+
+	<div id="noimage">
+		No image matched your query
+	</div>
+
+</template>
