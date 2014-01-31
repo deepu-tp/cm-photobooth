@@ -1,4 +1,4 @@
-To1run the frontend
+To run the frontend
 
   cd app
 
